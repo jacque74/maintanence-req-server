@@ -1,13 +1,13 @@
-package com.codeDifferentlyApartments.maintanenceReqForm;
+package com.codeDifferentlyApartments.maintenanceReqForm;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MaintanenceReqFormApplication {
+public class MaintenanceReqFormApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MaintanenceReqFormApplication.class, args);
+		SpringApplication.run(MaintenanceReqFormApplication.class, args);
 	}
 
 }

@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.codeDifferentlyApartments</groupId>
-	<artifactId>maintanence-Req-Form</artifactId>
+	<artifactId>maintenance-Req-Form</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>maintanence-Req-Form</name>
 	<description>Demo project for Spring Boot</description>
