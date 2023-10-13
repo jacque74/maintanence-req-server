@@ -1,4 +1,4 @@
-package com.codeDifferentlyApartments.maintenanceReqForm;
+package com.codeDifferentlyApartments.maintenanceRequest;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

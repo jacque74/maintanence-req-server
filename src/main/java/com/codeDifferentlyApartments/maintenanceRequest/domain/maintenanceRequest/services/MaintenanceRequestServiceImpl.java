@@ -1,12 +1,21 @@
-package com.codeDifferentlyApartments.maintenanceReqForm.domain.maintenanceRequest.services;
+package com.codeDifferentlyApartments.maintenanceRequest.domain.maintenanceRequest.services;
 
-import com.codeDifferentlyApartments.maintenanceReqForm.domain.core.exceptions.ResourceCreationException;
-import com.codeDifferentlyApartments.maintenanceReqForm.domain.core.exceptions.ResourceNotFoundException;
-import com.codeDifferentlyApartments.maintenanceReqForm.domain.maintenanceRequest.models.MaintenanceRequest;
+import com.codeDifferentlyApartments.maintenanceRequest.domain.core.exceptions.ResourceCreationException;
+import com.codeDifferentlyApartments.maintenanceRequest.domain.core.exceptions.ResourceNotFoundException;
+import com.codeDifferentlyApartments.maintenanceRequest.domain.maintenanceRequest.models.MaintenanceRequest;
+import com.codeDifferentlyApartments.maintenanceRequest.domain.maintenanceRequest.repos.MaintenanceRequestRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class MaintenanceRequestServiceImpl implements MaintenanceRequestService {
+    private MaintenanceRequestRepository maintenanceRequestRepository;
+
+    @Autowired
+    public MaintenanceRequestServiceImpl(MaintenanceRequest maintenanceRequestRepository) {
+        this.maintenanceRequestRepository = (MaintenanceRequestRepository) maintenanceRequestRepository;
+    }
 
     @Override
     public MaintenanceRequest create(MaintenanceRequest maintenanceRequest) throws ResourceCreationException {

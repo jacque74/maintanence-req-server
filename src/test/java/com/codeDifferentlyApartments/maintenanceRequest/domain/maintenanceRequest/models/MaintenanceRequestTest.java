@@ -1,9 +1,7 @@
-package com.codeDifferentlyApartments.maintenanceReqForm.domain.maintenanceRequest.models;
+package com.codeDifferentlyApartments.maintenanceRequest.domain.maintenanceRequest.models;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import java.time.LocalDateTime;
 
 public class MaintenanceRequestTest {
 

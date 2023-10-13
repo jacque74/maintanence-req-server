@@ -1,4 +1,4 @@
-package com.codeDifferentlyApartments.maintenanceReqForm.domain.core.exceptions;
+package com.codeDifferentlyApartments.maintenanceRequest.domain.core.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

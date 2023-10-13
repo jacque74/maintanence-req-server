@@ -1,8 +1,8 @@
-package com.codeDifferentlyApartments.maintenanceReqForm.domain.maintenanceRequest.services;
+package com.codeDifferentlyApartments.maintenanceRequest.domain.maintenanceRequest.services;
 
-import com.codeDifferentlyApartments.maintenanceReqForm.domain.core.exceptions.ResourceCreationException;
-import com.codeDifferentlyApartments.maintenanceReqForm.domain.core.exceptions.ResourceNotFoundException;
-import com.codeDifferentlyApartments.maintenanceReqForm.domain.maintenanceRequest.models.MaintenanceRequest;
+import com.codeDifferentlyApartments.maintenanceRequest.domain.core.exceptions.ResourceCreationException;
+import com.codeDifferentlyApartments.maintenanceRequest.domain.core.exceptions.ResourceNotFoundException;
+import com.codeDifferentlyApartments.maintenanceRequest.domain.maintenanceRequest.models.MaintenanceRequest;
 
 import java.util.List;
 
